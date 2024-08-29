@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="section-holder">
+		<div id="section-description" class="section" style="display: none;">
+<h4>Simple Job Board provides an efficient solution for showcasing job openings on your careers page, and to receive job applications, ready to use with minimal configuration.</h4>
+<p>The plugin is available in English, French(Français), Arabic (العربية), Brazilian Portuguese(Português do Brasil), Italian(Italiano), Russian(Русский), Chinese(简体中文), Dutch(Nederlands), Serbian(Српски језик), Swedish(Svenska), Urdu(اردو), Japanese(日本語), Polish(Polski) and Galician(Galego).</p>
+<h4>Looking for an easy, user-friendly and robust Job board plugin?</h4>
+<p>Simple Job Board by <a href="https://www.presstigers.com" target="_blank">PressTigers</a> is an easy, light weight plugin that adds a job board to your WordPress website.<br>
+This plugin is extendible and easy to use. A customized job board is created to manage various job openings via WordPress with the Simple Job Board. You can add multiple job listings and can show them on any page by inserting [jobpost] shortcode. You can add multiple job features and customized application forms for every distinct job post. You can also add notes to an application right from the dashboard.</p>
+<h4>Shortcode</h4>
+<pre><code> [jobpost]
+</code></pre>
+<h4>Live Demo</h4>
+<p>Please click here for <a href="https://jobboardextensions.demo.presstigers.com" target="_blank">Simple Job Board Demo</a>.</p>
+<h4>Mobile App</h4>
+<p>Manage your Job Board from anywhere with the Simple Job Board mobile app on <a href="https://play.google.com/store/apps/details?id=com.nextbridge.simple_job_board" target="_blank">Android</a> and <a href="https://apps.apple.com/us/app/simple-job-board/id1671815165" target="_blank">iOS</a>.</p>
+<h4>Simple Job Board Add-ons</h4>
+<ul>
+<li><a href="https://market.presstigers.com/product/mobile-app-connector-add-on/" target="_blank">Mobile App Connector</a> (New)</li>
+<li><a href="https://market.presstigers.com/product/job-seeker-dashboard-add-on/" target="_blank">Job Seeker Dashboard Add-on</a> (New)</li>
+<li><a href="https://market.presstigers.com/product/frontend-jobposting-add-on/" target="_blank">Frontend Job Posting with Paid Job Listing</a> (New)</li>
+<li><a href="https://market.presstigers.com/product/custom-apply-link-add-on/" target="_blank">Custom Apply Link Add-on</a></li>
+<li><a href="https://market.presstigers.com/product/custom-redirection-add-on/" target="_blank">Custom Redirection</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-add-on-for-wpbakery/" target="_blank">Job Board Add-on for WPBakery</a></li>
+<li><a href="https://market.presstigers.com/product/job-posting-management-add-on/" target="_blank">Job Posting Management</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-email-notifications-bundle/" target="_blank">Job Board – Email Notifications Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/individual-job-email-notifications-add-on/" target="_blank">Individual Job Email Notifications</a></li>
+<li><a href="https://market.presstigers.com/product/remove-job-posted-date-add-on/" target="_blank">Remove Job Posted Date</a></li>
+<li><a href="https://market.presstigers.com/product/geolocation-job-search-add-on/" target="_blank">Geolocation Job Search</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-custom-bundle/" target="_blank">Job Board – Custom Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/refer-a-friend-add-on/" target="_blank">Refer a Friend</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-add-on-for-elementor/" target="_blank">Job Board Add-on for Elementor</a></li>
+<li><a href="https://market.presstigers.com/product/bulk-resume-download-add-on/" target="_blank">Bulk Resume Download</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-4-in-1-bundle/" target="_blank">Job Board – 4 in 1 Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-6-in-1-bundle/" target="_blank">Job Board – 6 in 1 Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-applications-handling-bundle/" target="_blank">Job Board – Applications Handling Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-search-and-sort-bundle/" target="_blank">Job Board – Search and Sort Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/job-applications-counter-add-on/" target="_blank">Job Applications Counter</a></li>
+<li><a href="https://market.presstigers.com/product/extend-attachment-file-types-add-on/" target="_blank">Extend Attachment File Types</a></li>
+<li><a href="https://market.presstigers.com/product/job-listings-import-export-add-on/" target="_blank">Job Listings Import/Export</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-custom-bundle/" target="_blank">Job Board – Custom Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/cloud-storage-connector-add-on/" target="_blank">Cloud Storage Connector</a></li>
+<li><a href="https://market.presstigers.com/product/job-search-box-add-on/" target="_blank">Job Search Box</a></li>
+<li><a href="https://market.presstigers.com/product/custom-job-application-statuses-add-on/" target="_blank">Custom Job Application Statuses</a></li>
+<li><a href="https://market.presstigers.com/product/email-notification-templates-add-on/" target="_blank">Email Notification Templates</a></li>
+<li><a href="https://market.presstigers.com/product/resume-preview-add-on/" target="_blank">Resume Preview</a></li>
+<li><a href="https://market.presstigers.com/product/salary-range-filter-add-on/" target="_blank">Salary Range Filter</a></li>
+<li><a href="https://market.presstigers.com/product/jobs-sorting-add-on/" target="_blank">Jobs Sorting</a></li>
+<li><a href="https://market.presstigers.com/product/job-application-deadline-add-on/" target="_blank">Job Application Deadline</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-3-in-1-bundle/" target="_blank">Job Board – 3 in 1 Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-5-in-1-bundle/" target="_blank">Job Board – 5 in 1 Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-all-filters-bundle/" target="_blank">Job Board – All Filters Bundle</a></li>
+<li><a href="https://market.presstigers.com/product/ajax-job-search-add-on/" target="_blank">AJAX Job Search</a></li>
+<li><a href="https://market.presstigers.com/product/featured-job-listing-add-on/" target="_blank">Featured Job Listing</a></li>
+<li><a href="https://market.presstigers.com/product/google-job-search-and-indexing-api/" target="_blank">Google Job Search and Indexing API</a></li>
+<li><a href="https://market.presstigers.com/product/job-applications-csv-exporter/" target="_blank">Job Applications CSV Exporter</a></li>
+<li><a href="https://market.presstigers.com/product/multiple-attachment-fields-add-on" target="_blank">Multiple Attachment Fields</a></li>
+<li><a href="https://market.presstigers.com/product/email-application-add-on" target="_blank">Email Attachment</a></li>
+<li><a href="https://market.presstigers.com/product/how-to-apply-add-on/" target="_blank">How to Apply</a></li>
+<li><a href="https://market.presstigers.com/product/job-application-to-pdf-add-on/" target="_blank">Job Application to PDF</a></li>
+<li><a href="https://market.presstigers.com/product/job-board-captcha-add-on" target="_blank">Job Board CAPTCHA</a></li>
+<li><a href="https://market.presstigers.com/product/company-filter-add-on" target="_blank">Company Details &amp; Filter</a></li>
+<li><a href="https://market.presstigers.com/product/job-industry-filter-add-on" target="_blank">Job Industry Filter</a></li>
+<li><a href="https://market.presstigers.com/product/job-level-filter-add-on" target="_blank">Job Level Filter</a></li>
+<li><a href="https://market.presstigers.com/product/extended-support" target="_blank">Content Replacement</a></li>
+<li><a href="https://market.presstigers.com/product/job-expirator-add-on" target="_blank">Job Expirator</a></li>
+<li><a href="https://market.presstigers.com/product/location-base-hiring" target="_blank">Location Base Hiring</a></li>
+<li><a href="https://market.presstigers.com/product/category-base-hiring" target="_blank">Category Base Hiring</a></li>
+<li>Not in the list, for custom add-on please <a href="https://market.presstigers.com/contact-us" target="_blank">contact us</a></li>
+</ul>
+<h4>Plugin Features</h4>
+<ul>
+<li>Add, categorize and manage all jobs using the granular WordPress User Interface.</li>
+<li>Allow job listers to add job types in job listings.</li>
+<li>Add job location to an individual job created.</li>
+<li>Add category shortcode to any post to enlist job listing of that particular category.</li>
+<li>A job can contain an unlimited amount of information about both the job itself and the company.</li>
+<li>Add job location to any post by using specified shortcode.</li>
+<li>Add job type to any post by using specified shortcode.</li>
+<li>Add a combination of multiple shortcodes for a job listing.</li>
+<li>Use the anti-hotlinking option to enhance the security of your documents.</li>
+<li>Upload documents in various extensions.  </li>
+<li>Job Seeker can apply for job by submitting the job application form, located on single job post.</li>
+<li>The job application form is prepared for immediate use with preconfigured input fields.</li>
+<li>View Applicants’ list who applied for a particular job.</li>
+<li>Set job listing, job features, application form, filters and email notifications for a job through global settings.</li>
+<li>Compatible with WPML since SJB version 2.9.0 </li>
+</ul>
+<h4>Can you contribute?</h4>
+<p>If you are an awesome contributor for translations or plugin development, please contact us at support@presstigers.com</p>
+<h3>Credits</h3>
+<ul>
+<li>International Telephone Input(https://intl-tel-input.com)</li>
+<li>Google Fonts(https://fonts.google.com)</li>
+<li>jQuery UI(https://jqueryui.com)</li>
+<li>WP Color Picker Alpha(https://github.com/23r9i0/wp-color-picker-alpha)</li>
+<li>Create Guten Block by Ahmad Awais(https://github.com/ahmadawais/create-guten-block)</li>
+</ul>
+<h3>Configurations &amp; Templating</h3>
+<h4>Follow the following steps for a fully functional Job Board:</h4>
+<ol>
+<li>After installation, go to “Job Board” menu in the admin panel, and add a new job listing.</li>
+<li>Add multiple job features and a fully customized application form right from the job listing editor.</li>
+<li>To list all the job listings and start receiving applications, add [jobpost] shortcode in an existing page or add a new page and write shortcode anywhere in the page editor.</li>
+<li>After someone fills an application form from the front-end, you will receive it right in the dashboard.</li>
+<li>You can add special notes to an application by opening its detail page.</li>
+</ol>
+<h4>Job Board Templating</h4>
+<p>The job board templating feature allows you to change the following file templates. We are providing two UI layouts named as Classical and Modern.</p>
+<ol>
+<li>For modifying classical layout templates, please refer to v1 directory.</li>
+<li>
+<p>For modifying modern layout templates, please refer to v2 directory.</p>
+</li>
+<li>
+<p>To change a template, please add “simple_job_board” folder in your activated theme’s root directory.</p>
+</li>
+<li>Add your file from plugin simple-job-board &gt;templates folder keeping the same file directory structure and do whatever you want. Please exclude “templates” while making the directory structure in your theme.</li>
+</ol>
+<p>Enjoy your work with Simple Job Board templating.</p>
+	</div>
+	<div id="section-installation" class="section" style="display: none;">
+<ol>
+<li>Download plugin.</li>
+<li>Upload <code>simple-job-board.zip</code> to the <code>/wp-content/plugins/</code> directory to your web server.</li>
+<li>Activate the plugin through the ‘Plugins’ menu in WordPress.</li>
+<li>Add a standard WordPress page or post and use the [jobpost] shortcode in the editor to make it a Job Board.</li>
+</ol>
+	</div>
+	<div id="section-faq" class="section" style="display: none;">
+
+
+How to show job listings on the front-end?
+
+<p>
+</p><p>To list all the job listings and start receiving applications, add [jobpost] shortcode in an existing page or add a new page and write shortcode anywhere in the page editor.</p>
+<p></p>
+
+Job Page Expands Across Entire Page
+
+<p>
+</p><p>It’s container class naming issue. We can’t set all websites container classes because every website has its own CSS and naming conventions.</p>
+<p>So, we are giving the facility to Job Board’s users for adding container class or Id under Settings&gt; Appearance tab. Please add your website container class in “Job Board Container Class:” under Job Board&gt; Settings&gt; Appearance tab.</p>
+<p></p>
+
+Where can I assign global settings for same job posts?
+
+<p>
+</p><p>You can assign global job listing settings to each job post through settings.</p>
+<p></p>
+
+Can I upload a resume with different extensions?
+
+<p>
+</p><p>Yes, you can upload a resume document with .pdf, .odt, .txt, .rtf, .doc, .docx extensions from the settings page.</p>
+<p></p>
+
+Can I show only 5 latest jobs on front-end with pagination?
+
+<p>
+</p><p>Yes, you can show any number of posts on your website with pagination feature by using shortcode with “posts” attribute i.e. [jobpost posts=”5″]</p>
+<p></p>
+
+Can I show job listing grid view using a shortcode?
+
+<p>
+</p><p>Yes, you can use a shortcode on post page i.e. [jobpost layout=”grid”]</p>
+<p></p>
+
+Can I show job listings for particular “Category” using a shortcode?
+
+<p>
+</p><p>Yes, you can use a shortcode on post page i.e. [jobpost category=”category-slug”]</p>
+<p></p>
+
+Can I show job listings for particular “Type” using a shortcode?
+
+<p>
+</p><p>Yes, you can use a shortcode on post page i.e. [jobpost type=”type-slug”]</p>
+<p></p>
+
+Can I show job listings for particular “Location” using a shortcode?
+
+<p>
+</p><p>Yes, you can use a shortcode on post page i.e. [jobpost location=”location-slug”]</p>
+<p></p>
+
+Can I use combination for various shortcodes to display job listings?
+
+<p>
+</p><p>Yes, you can use various combinations of shortcodes with spaces i.e. [jobpost location=”location-slug” category=”category-slug” type=”type-slug”]</p>
+<p></p>
+
+How Can I view the Applicant list for a Job Post?
+
+<p>
+</p><p>In your WordPress admin panel, go to “Job Board” menu and “Applicants” section</p>
+<p></p>
+
+Where can I find more information about Simple Job Board?
+
+<p>
+</p><p>You can visit <a href="https://www.presstigers.com" target="_blank">PressTigers Website</a> or <a href="https://www.presstigers.com/category/plugins/simple-job-board/" target="_blank">blog</a> page.</p>
+<p></p>
+
+	</div>
+	<div id="section-changelog" class="section" style="display: none;">
+<h4>2.12.5</h4>
+<ul>
+<li>Fix – Fixed year directory files access.</li>
+</ul>
+<h4>2.12.4</h4>
+<ul>
+<li>Fix – Enhanced security.</li>
+</ul>
+<h4>2.12.3</h4>
+<ul>
+<li>Fix – Enhanced security as a continuation of the previous fix.</li>
+</ul>
+<h4>2.12.2</h4>
+<ul>
+<li>Fix – Fixed a security issue.</li>
+</ul>
+<h4>2.12.1</h4>
+<ul>
+<li>Fix – Fixed the quick apply issue.</li>
+<li>Fix – Fixed the values of multiple checkboxes in job features.</li>
+</ul>
+<h4>2.12.0</h4>
+<ul>
+<li>Feature – Included predefined fields for job application form.</li>
+<li>Feature – Set the single job post in a container by default.</li>
+<li>Feature – Built the capability to adjust width of the container for single job post.</li>
+</ul>
+<h4>2.11.1</h4>
+<ul>
+<li>Fix – Fixed a security issue.</li>
+<li>Fix – Posted date compatibility with SJB Elementor Addon.</li>
+</ul>
+<h4>2.11.0</h4>
+<ul>
+<li>Feature – Added the tag based search.</li>
+<li>Feature – Settings for enabling/disabling of tags feature.</li>
+<li>Fix – Fixed the security issue.</li>
+<li>Fix – Improved the performance issue regarding flush_rewrite_rules().</li>
+</ul>
+<h4>2.10.8</h4>
+<ul>
+<li>Fix – Fixed the add-on listing page issue.</li>
+</ul>
+<h4>2.10.7</h4>
+<ul>
+<li>Fix – Fixed the Cross Site Request Forgery (CSRF) vulnerability issue.</li>
+</ul>
+<h4>2.10.6</h4>
+<ul>
+<li>Feature – Added option to remove the data on uninstalling the plugin.</li>
+<li>Fix – Fixed the security issues.</li>
+<li>Tweak – Improved the functionality of Simple Job Board.</li>
+</ul>
+<h4>2.10.5</h4>
+<ul>
+<li>Feature – Added a view less/more functionality on job listing page.</li>
+<li>Feature – Added a settings for view less/more functionality on job listing page.</li>
+<li>Fix – Fixed the “Expose in Applicant Listing” issue where the button is not working.</li>
+<li>Fix – Resolved the layout adjustment issue when no company data is entered.</li>
+<li>Tweak – Rename the “Applicant” menu to “Applications” in the dashboard.</li>
+</ul>
+<h4>2.10.4</h4>
+<ul>
+<li>Fix – Resolved CSRF security issue.</li>
+<li>Fix – Resolved Font Awesome icons issue with V5 library.</li>
+</ul>
+<h4>2.10.3</h4>
+<ul>
+<li>Fix – Fixed the Font Awesome V5 icons issue with search icons and bullets.</li>
+<li>Fix – Fixed the “Apply Now”, “Read More” &amp; “Quick View” buttons disappearing issue on job listing page.</li>
+</ul>
+<h4>2.10.2</h4>
+<ul>
+<li>Fix – Fixed the issue where resume files were not uploading.</li>
+</ul>
+<h4>2.10.1</h4>
+<ul>
+<li>Feature – Added feature to set resume attachment maximum size.</li>
+<li>Feature – Added a feature to make email and phone number fields hyperlink.</li>
+<li>Feature – Added feature to clear job search results.</li>
+<li>Fix – Fixed the issue where loader stuck on infinite loop while uploading large files.</li>
+<li>Fix – Fixed the issue where date format wasn’t selected by default.</li>
+<li>Fix – Fixed the issue where job application and feature fields were unable to delete on post edit page.</li>
+<li>Fix – Fixed the issue where few settings fields were unable to be saved when empty.</li>
+<li>Fix – Fixed the issue where quick apply, read more and apply now text doesn’t fetched properly.</li>
+<li>Fix – Fixed the issue where no jobs found image were not loading for after design templating.</li>
+</ul>
+<h4>2.10.0</h4>
+<ul>
+<li>Feature – Added feature to quick apply for the job right away from the job listing page.</li>
+<li>Feature – Added new dashboard widget to display quick stats of the plugin.</li>
+<li>Feature – Added feature to allow users to set custom date format for job listings.</li>
+<li>Feature – Added option in settings to update “Job Archive” page title.</li>
+<li>Tweak – Revamped the “No job found” design.</li>
+<li>Tweak – Made the columns of the table of All Jobs and Applicants sortable. </li>
+<li>Tweak – Changed the position of the job submit button from left to the right side of the form. </li>
+<li>Tweak – Enhanced upload file naming mechanism to improve security.</li>
+<li>Fix – Resolved the authenticated directory traversal issue for NGINX and IIS servers.</li>
+<li>Fix – Fixed the “Read More” or “Apply Now” buttons layout issue with Safari browser.</li>
+<li>Fix – Fixed the issue where google fonts remain enables even SJB fonts option in settings is disabled.</li>
+<li>Fix – Fixed the issue where icons are not visible due to the conflict between FontAwesome 4 and 5 libraries.</li>
+<li>Fix – Fixed the issue where job features appears twice when job detail page is designed through the Elementor.</li>
+<li>Fix – Fixed the issue where on multilingual site the listed jobs redirected to the site home URL instead on the job detail page.</li>
+<li>Fix – Fixed the issue where HTML tags were not working on the applicant detail page.</li>
+<li>Fix – Fixed the issue where jobs of any status were visible on the Job Archive page. Now only published jobs will be listed.</li>
+<li>Fix – Fixed the issue where quick download icon always visible under the Action column even no job resume is attached.</li>
+<li>Fix – Fixed the issue where in grid view the jobs layout is disturbed.</li>
+<li>Fix – Fixed the issue where the array is fetched instead of the icon value on job detail and job features settings.</li>
+<li>Fix – Fixed the issue where wrong translation were added for “Send” in dutch.</li>
+<li>Fix – Fixed the issue where read more button doesn’t appear on the mobile view..</li>
+<li>Fix – Removed the isolated code and files from the package.</li>
+</ul>
+<h4>2.9.6</h4>
+<ul>
+<li>Feature – Made it compatible with WordPress Multisite Network.</li>
+<li>Feature – Added feature to search application by searching input fields values.</li>
+<li>Tweak – Added support for “class” attribute for  tag.</li>
+<li>Tweak – Updated international telephone numbers library to support more country numbers and dial codes.</li>
+<li>Fix – Fixed the issue where application features and application forms were not editable after addition.</li>
+<li>Fix – Fixed the issue where when new application features and application forms are added the selected field type reverted back to default “Section Heading”.</li>
+<li>Fix – Secured the input/output values in Simple Job Board.</li>
+<li>Fix – Added server side error handling to prevent loader from stucking in infinite loop.</li>
+<li>Fix – Fixed the issue where HTML tags are not working for privacy policy or terms and condition.</li>
+<li>Fix – Fixed the pagination layout issue on mobile view.</li>
+</ul>
+<h4>2.9.5</h4>
+<ul>
+<li>Feature – Added “Action” column on application listing page and displayed an option to download resume.</li>
+<li>Fix – Fixed Cross-site scripting security vulnerability in SJB.</li>
+<li>Fix – Fixed layout issue of “Privacy Policy” settings.</li>
+<li>Fix – Added support for <br> tag for wp editor.</li>
+<li>Fix – Resolved the issue where applications fields required option and field name can’t be altered after addition.</li>
+<li>Fix – Resolved the issue where admin is unable to un-check “Expose in Applicant Listing” after clicks on “Add Field” button on settings and wizard page.</li>
+<li>Fix – Fixed layout issue of search bar and button when only search filter is enabled.</li>
+<li>Fix – Resolved the issue where color appearance settings doesn’t take effect on Search and Browse button.</li>
+<li>Fix – Resolved the textual mistake that was confusing company detail with job detail in “Job Listing Contents” under appearance tab in settings.</li>
+<li>Fix – Resolved the issue where user is not redirected to file using resume link when logged out.</li>
+<li>Fix – Fixed the textual mistake of “application” in the privacy tab in settings.</li>
+<li>Fix – Resolved the issue where loader gif does not load without uploading again.</li>
+</ul>
+<h4>2.9.4</h4>
+<ul>
+<li>Fix – Resolved the authenticated directory traversal issue.</li>
+<li>Tweak – Applied filter to change the resume download capability for a user role.</li>
+<li>Fix – Added search filter parameters to job &amp; archive query filter.</li>
+<li>Fix – Resolved the Typo issues.</li>
+</ul>
+<h4>2.9.3</h4>
+<ul>
+<li>Fix – Resolved the job application &amp; features saving issue in case of new job.</li>
+<li>Tweak – Applied hooks to applicant email headers.</li>
+</ul>
+<h4>2.9.2</h4>
+<ul>
+<li>Feature – Added Galician language translation.</li>
+<li>Tweak – Updated .pot file with new added string.</li>
+<li>Fix – Reverted changes for Job Features and Application Form Field.</li>
+<li>Fix – Resolved the “Read More” button html structure issue.</li>
+<li>Fix – Removed the duplicate action hook from Settings&gt; Appearance tab.</li>
+</ul>
+<h4>2.9.1</h4>
+<ul>
+<li>Fix – Fixed the widget issue.</li>
+<li>Fix – Fixed the “Read More” button issue on Classic layout.</li>
+</ul>
+<h4>2.9.0</h4>
+<ul>
+<li>Feature – Implemented new UI for SJB listing and detail pages.</li>
+<li>Feature – Added WPML plugin compatibility.</li>
+<li>Feature – Added Wizard for the global configuration of the Job Board.</li>
+<li>Feature – Revamped the whole Settings UI.</li>
+<li>Feature – Added icon based featured listing for Modern layout.</li>
+<li>Feature – Added mechanism to select the settings’ job features from backend job detail page.</li>
+<li>Feature – Added mechanism to select the settings’ job application form from backend job detail page.</li>
+<li>Tweak – Added new French translation strings.</li>
+<li>Fix – Removed the double serialization from whole SJB code.</li>
+<li>Fix – Fixed the pagination conflict with search query.</li>
+</ul>
+<h4>2.8.3</h4>
+<ul>
+<li>Fix – Removed the font-awesome that was include twice.</li>
+<li>Fix – Resolved the checkbox and radio buttons issue after WP 5.5</li>
+<li>Fix – Resolved the data sanitization issue in case of privacy policy and term and condition settings.</li>
+<li>Fix – Added missing hook in job archive page.</li>
+</ul>
+<h4>2.8.2</h4>
+<ul>
+<li>Fix – Fixed the Gutenberg block issue with WP 5.5</li>
+<li>Fix – Resolved the jQuery conflicts with WP 5.5</li>
+<li>Fix – Resolved the pagination issue with WP 5.5</li>
+<li>Tweak – Updated .pot file with missing strings.</li>
+</ul>
+<h4>2.8.1</h4>
+<ul>
+<li>Tweak – Added compatibility for WordPress 5.5</li>
+</ul>
+<h4>2.8.0</h4>
+<ul>
+<li>Feature – Added Gutenberg Block for Job Listing</li>
+<li>Feature – Added layout attribute in SJB shortcode to manage the layout independently.</li>
+<li>Tweak – Removed List View Settings Section from the SJB Appearance Tab.</li>
+<li>Dev Note – Removed ‘sjb_job_listing_view’ hook after introducing Layout attributes in shortcode &amp; block.</li>
+<li>Fix – Fixed SJB Shortcode Inserter issue in Gutenberg Classic Editor Block6</li>
+</ul>
+<h4>2.7.4</h4>
+<ul>
+<li>Fix – Resolved the SJB styling issue in case of theme layout settings.</li>
+</ul>
+<h4>2.7.3</h4>
+<ul>
+<li>Fix – Resolved the SJB add-ons page 404 error.</li>
+<li>Dev Notes – Removed the unused template files single-job-wrapper-start.php &amp; single-job-wrapper-end.php from simple-job-board/templates/single-jobpost directory.</li>
+</ul>
+<h4>2.7.2</h4>
+<ul>
+<li>Fixed the compatibility issues with PHP 7.3</li>
+<li>Fix – Fixed the wrapping issue in Admin Script to avoid from conflict.</li>
+</ul>
+<h4>2.7.1</h4>
+<ul>
+<li>Fix – Fixed the job application HTML issue.</li>
+</ul>
+<h4>2.7.0</h4>
+<ul>
+<li>Feature – Added heading sections on job application form fields.</li>
+<li>Feature – Revamped the job application HTML design.</li>
+<li>Feature – Added HTML support to Privacy and Term &amp; Condition content section.</li>
+<li>Feature – Added loader image and settings for it.</li>
+<li>Tweak – Removed the submitting text and added loader image there.</li>
+<li>Dev Note – Added hooks to job exported and erased data.</li>
+<li>Dev Note – Added hook to applicant email.</li>
+<li>Fix – Display [deleted] resume error message in case of deletion.</li>
+<li>Fix – Resolved applicant email issue.</li>
+<li>Fix – Updated resume post meta in case of data eraser.</li>
+</ul>
+<h4>2.6.0</h4>
+<ul>
+<li>Feature – Compliance job board plugin according to GDPR rules &amp; regulation.</li>
+<li>Feature – Integrated application data export with WP core export tool.</li>
+<li>Feature – Integrated &amp; erased application data and resume with WP core eraser tool.</li>
+<li>Feature – Added Privacy settings tab for privacy policy and term &amp; condition on the job application.</li>
+<li>Feature – Set REST API parameters to enable Gutenberg editor functionality.</li>
+<li>Fix – Fixed the email sending issues regarding the email field.</li>
+<li>Fix – Resolved the empty HR/Admin emails issue in case of email notification settings.</li>
+</ul>
+<h4>2.5.0</h4>
+<p>Feature – Added support for theme compatible HTML structure for job detail page.<br>
+Feature – Setting for the switching the job detail page layout to theme/sjb provided layout under Appearance tab.<br>
+Feature – Added job title dropdown to filter applications on the basis of job title.<br>
+Feature – Added “View Applications” link to get all applicants against each job on the admin job listing page.<br>
+Feature – Added statuses for the job application.<br>
+Tweak – Made admin email address field editable.<br>
+Tweak – Added action hooks for job features and application form fields sections.<br>
+Fix – Fixed the archive page search issue in case of no job found.<br>
+Fix – Resolved the required email asterisk issue.<br>
+Fix – Increase the year range of datepicker for utilizing it for DOB.<br>
+Fix – Resolved the backend styling conflicts of SJB plguin with other plugins.<br>
+Fix – Encoded email subject title.<br>
+Fix – Displayed default company logo on job detail page when no settings option is selected from the backend.<br>
+Note – Updated missing strings for French translations.</p>
+<h4>2.4.6</h4>
+<p>WP 4.9 Compatibility – Resolved the color picker issue in settings’s appearance tab.<br>
+Fix – Resolved the container class uppercase naming issue.<br>
+Fix – Added missing parameters for archive page pagination template.<br>
+Fix – Fixed the SSL certification issues for telinput.</p>
+<h4>2.4.5</h4>
+<p>Fix – Resolved the resume downloading issue.<br>
+Fix – Fixed the job application form builder issue with multilingual characters.<br>
+Fix – Added website Home URL instead of WordPress Site Address in email template.<br>
+Tweak – Revised French translation.<br>
+Tweak – Added post id as a parameter in the filter hooks of email notification templates for developers.<br>
+Tweak – Breakdown the HR, Amin and Applicant notification templates into modules for developers usage to make customizations easy.<br>
+Tweak – Introduced new filters in email notification templates.</p>
+<h4>2.4.4</h4>
+<ul>
+<li>Feature – Added translations for Serbian and Swedish.</li>
+<li>Tweak – Modified the job posted date templates for making it easily customizable for developers.</li>
+<li>Fix – Resolved the “File not found.” error while using theme and plugin editor.</li>
+<li>Fix – Verified the user authentication before downloading a resume.</li>
+<li>Fix – Fixed reflected XSS attack issues in case of keyword search.</li>
+<li>Fix – Removed the duplicate arrows of job filters’ selects in Internet Explorer.</li>
+</ul>
+<h4>2.4.3</h4>
+<ul>
+<li>Feature – Translated email templates for Dutch( Nederlands ).</li>
+<li>Feature – Added a widget for displaying recent jobs.</li>
+<li>Feature – Enable/Disable SJB plugin fonts from Appearance settings.</li>
+<li>Tweak – Improved the uploaded files(resume) security by restricting file’s direct link access.</li>
+<li>Fix – Resolved the CSS conflicts.</li>
+<li>Fix – Resolved the long pagination display issue.</li>
+<li>Fix – Added missing datepicker scroll arrows.</li>
+<li>Fix – Dimmed color for phone number placeholder.</li>
+<li>Note – Updated .pot file.</li>
+</ul>
+<h4>2.4.2</h4>
+<ul>
+<li>Fix – Resolved the job listing &amp; detail page layout issues.</li>
+<li>Fix – Fixed the job listing page layout problem with the content of WP page/post editor.</li>
+</ul>
+<h4>2.4.1</h4>
+<ul>
+<li>Fix – Fixed the fatal errors in Settings sections.</li>
+</ul>
+<h4>2.4.0</h4>
+<ul>
+<li>Feature – Added email notification From &amp; Reply-to parameters. </li>
+<li>Tweak – Revised the whole HTML structure.</li>
+<li>Tweak – Revised French translation.</li>
+<li>Fix – Resolved the search filters issue with custom permalinks structure.</li>
+<li>Fix/Tweak – Resolved applicant name issue with multilingual by providing a solution with an additional field on SJB form builder( Expose in Applicant Listing ).</li>
+<li>Fix – Resolved cross-browser compatibility issue for datepicker.</li>
+<li>Fix – Improved user experience on company logo &amp; details hide/show for both job listing &amp; detail pages.</li>
+<li>Note – Updated .pot file.</li>
+<li>Note – Improved plugin security.</li>
+</ul>
+<h4>2.3.2</h4>
+<ul>
+<li>Feature – Added label editable feature to job features and application form sections.</li>
+<li>Feature – Logo enable/disable settings for job detail page.</li>
+<li>Note – Added SJB add-ons listing section.</li>
+<li>Tweak – Applied more filters for email notifications setting.</li>
+<li>Fix – Resolved the job feature label auto capitalization problem.</li>
+</ul>
+<h4>2.3.1</h4>
+<ul>
+<li>Fix – Resolved appearance settings issue.</li>
+<li>Fix – Resolved CSS float property issue.</li>
+</ul>
+<h4>2.3.0</h4>
+<ul>
+<li>Feature – Introduced plugin level templating.</li>
+<li>Feature – Added support for RTL languages.</li>
+<li>Feature – Added translation for Dutch.</li>
+<li>Feature – Added more filters for email notifications.</li>
+<li>Tweak – Resolved permalinks reset issue on plugin activation.</li>
+<li>Tweak – Revised notification templates for Applicant, Admin, and HR.</li>
+<li>Tweak – Revised Job Board CSS for optimized typography.</li>
+<li>Tweak – Optimized validation for resume upload.</li>
+<li>Fix – Resolved cross-browser compatibility issue for admin field types dropdown.</li>
+<li>Fix – Resolved required validation issue of multiple checkboxes.</li>
+<li>Fix – Resolved the application form label auto capitalization problem.</li>
+</ul>
+<h4>2.2.4</h4>
+<ul>
+<li>Fix – Resolved the pagination issue with the job search.</li>
+<li>Fix – Resolved the required field validation issue in case of radio button and checkbox.</li>
+<li>Tweak – Revised the uploaded resume validation.</li>
+<li>Tweak – Added complete field types dropdown in application form’s settings.</li>
+<li>Tweak – Added pagination as the default behavior of job listing.</li>
+</ul>
+<h4>2.2.3</h4>
+<ul>
+<li>Feature – Added “sjb_applicant_details_notification” filter in email template.</li>
+<li>Feature – Added “sjb_category_filter_dropdown_after” &amp; “sjb_job_type_filter_dropdown_after” action hooks in job filter template.</li>
+<li>Feature – Made compatible with other plugin’s shortcode in job editor.</li>
+<li>Feature – Job listing and detail page typography settings under Appearance tab.</li>
+<li>Feature – Added translation for Chinese.</li>
+<li>Feature – Added Job Board shortcode generator in TinyMCE editor.</li>
+<li>Tweak – Updated anti-hotlinking rules for more specific to job board uploaded data.</li>
+<li>Tweak – Set phone input default country flag to user’s country based on their IP address.</li>
+<li>Tweak – Revised the job detail page template parts directory structure. </li>
+<li>Fix – Resolved the Job board CSS conflicting issue with phone field country flag listing.    </li>
+<li>Fix – Resolved the uploaded file path and URL issues.</li>
+<li>Fix – Resolved the company logo uploading issue on WP admin job detail page.</li>
+<li>Fix – Resolved the HTML structure breaking issue.</li>
+<li>Fix – Resolved checkboxes missing data issue on applicant detail page.</li>
+</ul>
+<h4>2.2.2</h4>
+<ul>
+<li>Fix – Resolved the single-jobpost.php templating issue.     </li>
+<li>Feature – Added Settings for job board templates container class and id.  </li>
+</ul>
+<h4>2.2.1</h4>
+<ul>
+<li>Fix – Resolved the website sidebar break issue.     </li>
+<li>Fix – Resolved the CSS conflict issue.    </li>
+<li>Fix – Loaded the job board resources(CSS &amp; JavaScript) only to job board pages.     </li>
+<li>Fix – Updated missing translations in Arabic, French, Italian,Russian and Portuguese languages.   </li>
+<li>Fix – Added missing Hooks and Filters.</li>
+</ul>
+	</div>
+	<div id="section-screenshots" class="section" style="">
+<ol><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-1.png?rev=1981243" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-1.png?rev=1981243" alt="<strong>Job Board Creation: Classical Layout</strong> - Allow users to create a Job Board with ease by using a shortcode."></a><p><strong>Job Board Creation: Classical Layout</strong> - Allow users to create a Job Board with ease by using a shortcode.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-2.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-2.png?rev=2419364" alt="<strong>Job Board Creation: Modern Layout</strong> - Allow users to create a Job Board with icon based job features."></a><p><strong>Job Board Creation: Modern Layout</strong> - Allow users to create a Job Board with icon based job features.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-3.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-3.png?rev=2419364" alt="<strong>Job Categories</strong> - Categorize your similar jobs under a group of categories with the help of a shortcode."></a><p><strong>Job Categories</strong> - Categorize your similar jobs under a group of categories with the help of a shortcode.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-4.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-4.png?rev=2419364" alt="<strong>Job Type</strong> - This allows users to specify the type of jobs you offer to them."></a><p><strong>Job Type</strong> - This allows users to specify the type of jobs you offer to them.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-5.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-5.png?rev=2419364" alt="<strong>Job Location</strong> - Let your users create jobs according to a certain demographic location."></a><p><strong>Job Location</strong> - Let your users create jobs according to a certain demographic location.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-6.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-6.png?rev=2419364" alt="<strong>List of Applicants</strong> - You can get all the applicants applied for jobs over here, by clicking each of applicant you can get further details and download the resume."></a><p><strong>List of Applicants</strong> - You can get all the applicants applied for jobs over here, by clicking each of applicant you can get further details and download the resume.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-7.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-7.png?rev=2419364" alt="<strong>Application Notes</strong> - This section helps site administrators to add additional notes to received Resumes."></a><p><strong>Application Notes</strong> - This section helps site administrators to add additional notes to received Resumes.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-8.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-8.png?rev=2419364" alt="<strong>General</strong> - Allow users to change the slug of custom post types and taxonomy."></a><p><strong>General</strong> - Allow users to change the slug of custom post types and taxonomy.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-9.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-9.png?rev=2419364" alt="<strong>Appearance</strong> - Let your users change view &amp; typography of job listing on front-end."></a><p><strong>Appearance</strong> - Let your users change view &amp; typography of job listing on front-end.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-10.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-10.png?rev=2419364" alt="<strong>Job Features</strong> - Allow your users to add their own set of features to a job listing or a single job post."></a><p><strong>Job Features</strong> - Allow your users to add their own set of features to a job listing or a single job post.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-11.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-11.png?rev=2419364" alt="<strong>Application Form Fields</strong> - This will help in creating customized job form."></a><p><strong>Application Form Fields</strong> - This will help in creating customized job form.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-12.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-12.png?rev=2419364" alt="<strong>Filters</strong> - Give your users complete control over job listing filters."></a><p><strong>Filters</strong> - Give your users complete control over job listing filters.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-13.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-13.png?rev=2419364" alt="<strong>Email Notifications</strong> - This section will enable various notification options for users."></a><p><strong>Email Notifications</strong> - This section will enable various notification options for users.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-14.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-14.png?rev=2419364" alt="<strong>File Extensions</strong> - Upload Documents with various extensions along with document security."></a><p><strong>File Extensions</strong> - Upload Documents with various extensions along with document security.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-15.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-15.png?rev=2419364" alt="<strong>Privacy</strong> - Set privacy policy and terms &amp; conditions text for your job."></a><p><strong>Privacy</strong> - Set privacy policy and terms &amp; conditions text for your job.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-16.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-16.png?rev=2419364" alt="<strong>Classical Job Listing List View</strong> - Classical layout of job listing list view."></a><p><strong>Classical Job Listing List View</strong> - Classical layout of job listing list view.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-17.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-17.png?rev=2419364" alt="<strong>Classical Job Listing Grid View</strong> - Classical layout of job listing grid view."></a><p><strong>Classical Job Listing Grid View</strong> - Classical layout of job listing grid view.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-18.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-18.png?rev=2419364" alt="<strong>Classical Job details page</strong> - Job board detail/single page. Job features and job application form is placed on it."></a><p><strong>Classical Job details page</strong> - Job board detail/single page. Job features and job application form is placed on it.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-19.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-19.png?rev=2419364" alt="<strong>Modern Job Listing List View</strong> - Modified layout of job listing list view."></a><p><strong>Modern Job Listing List View</strong> - Modified layout of job listing list view.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-20.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-20.png?rev=2419364" alt="<strong>Modern Job Listing Grid View</strong> - Modified layout of job listing grid view."></a><p><strong>Modern Job Listing Grid View</strong> - Modified layout of job listing grid view.</p></li><li><a href="https://ps.w.org/simple-job-board/assets/screenshot-21.png?rev=2419364" target="_blank"><img src="https://ps.w.org/simple-job-board/assets/screenshot-21.png?rev=2419364" alt="<strong>Modern Job details page</strong> - Modified layout of Job board detail/single page. Icon based job features are placed on it."></a><p><strong>Modern Job details page</strong> - Modified layout of Job board detail/single page. Icon based job features are placed on it.</p></li></ol>	</div>
+	<div id="section-reviews" class="section" style="display: none;">
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Great plugin and great support team</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/skydiveordie/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/7f8e5a81f0623165254e0a56aa4fc029?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/skydiveordie/" target="_blank">skydiveordie</a> on <span class="review-date">June 13, 2024</span>			</p>
+		</div>
+	</div>
+	<div class="review-body"><!-- wp:paragraph -->
+<p>Thank you for your support </p>
+<!-- /wp:paragraph --></div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Excellent plugin</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/parkermoto/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/4b6ea247c0ab81024c837b0fe77f043a?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/parkermoto/" target="_blank">parkermoto</a> on <span class="review-date">September 9, 2023</span>			</p>
+		</div>
+	</div>
+	<div class="review-body"><!-- wp:paragraph -->
+<p>Simple Job Board is an excellent plugin with a useful set of add-ons.  Price is good and the support is excellent. </p>
+<!-- /wp:paragraph --></div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Very good support</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/ultralite/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/abbf185c0aece7d918c851b33b5b0570?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/ultralite/" target="_blank">ultralite</a> on <span class="review-date">May 26, 2023</span>			</p>
+		</div>
+	</div>
+	<div class="review-body"><!-- wp:paragraph -->
+<p>Excellent application, easy to use, with some bugs still to be fixed but for me it is ideal.<br>I have had to contact support on several occasions and they have been very attentive to me, they have helped me and solved my doubts and problems that have arisen.<br>I give you 10 stars!</p>
+<!-- /wp:paragraph --></div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Good Plugin</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/repairmedia/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/a579857386456294c3dfb1b50ca656ca?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/repairmedia/" target="_blank">repairmedia</a> on <span class="review-date">January 11, 2023</span>			</p>
+		</div>
+	</div>
+	<div class="review-body"><!-- wp:paragraph -->
+<p>Developer responded to a query very quickly and resolved the issue.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For a free plug-in this is excellent </p>
+<!-- /wp:paragraph --></div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Great plugin &amp; reliable support</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/netsyscon/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/b8457f16cc7c0ccf8210347dc58c054d?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/netsyscon/" target="_blank">netsyscon</a> on <span class="review-date">December 8, 2022</span>			</p>
+		</div>
+	</div>
+	<div class="review-body">The plugin is clean and easy to use. Customer support is exceptional. </div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Simple, easy, responsive support</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/dg89/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/fff9536474f9dc2ba0ab90a9eea03e6d?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/dg89/" target="_blank">dg89</a> on <span class="review-date">July 21, 2022</span>			</p>
+		</div>
+	</div>
+	<div class="review-body">Really, nothing but good things to say about the board. Very easy to install, use, and customer service gets back very quickly!</div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Amazing Support</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/nmdelcore/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/ae234d982dbf805902a77156ae5e5fe2?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/nmdelcore/" target="_blank">nmdelcore</a> on <span class="review-date">June 9, 2022</span>			</p>
+		</div>
+	</div>
+	<div class="review-body">This team provides incredible support, especially for a free plugin. They were able to help me quickly fix some minor issues I had on my site when implementing the plugin. </div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Good plug-in, great support</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/sybena/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/690409633d9dc31c126188570a2cee7c?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/sybena/" target="_blank">sybena</a> on <span class="review-date">May 12, 2022</span>			</p>
+		</div>
+	</div>
+	<div class="review-body">Our first choice for job postings. When we had a problem, the support helped us very quickly and courteously. Clear recommendation!</div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>best and simple plugin</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/monir1999/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/d7ae4432b97739ed8ef1fe3c67549874?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/monir1999/" target="_blank">Md Moniruzzaman Monir (monir1999)</a> on <span class="review-date">March 31, 2022</span>			</p>
+		</div>
+	</div>
+	<div class="review-body">Thank you sir</div>
+</div>
+<div class="review">
+	<div class="review-head">
+		<div class="reviewer-info">
+			<div class="review-title-section">
+				<h4>Great Plugin but they split features to make more money</h4>
+				<div class="star-rating">
+				<div class="wporg-ratings"><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-filled"></span><span class="star dashicons dashicons-star-empty"></span><span class="star dashicons dashicons-star-empty"></span></div>				</div>
+			</div>
+			<p>
+				By <a href="https://profiles.wordpress.org/yaboyitachi/" target="_blank"><img alt="" src="https://secure.gravatar.com/avatar/d765a383f0f85592db3c4ad017773aa8?s=16&amp;d=monsterid&amp;r=g" class="avatar avatar-16 photo"></a><a href="https://profiles.wordpress.org/yaboyitachi/" target="_blank">yaboyitachi</a> on <span class="review-date">March 31, 2022</span>			</p>
+		</div>
+	</div>
+	<div class="review-body">I love this product, I currently use it for a website.
+
+However, there were more features previously and they seem to have removed them without notifying anyone of it. The notification functionality is used to email an admin, it would provide all of the applicant details and attach the resume by default. Now, they seem to have managed to remove that feature from the initial plugin. Tigerpress requires you to purchase an add-on to do the same thing.
+
+Just a headsup.</div>
+</div>
+	</div>
+</div>
+</body>
+</html>
