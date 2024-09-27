@@ -8,6 +8,8 @@
 <body>
   <h2>正式环境</h2>
 <p>https://ezsvs.com/wp-login.php</p>
+<a href="https://ezsvs.com/wp-login.php">Click here 点击跳转</a>
+  <h2>测试环境已经删除，不再提供</h2>
 <h2>账户如下</h2>
 <table>
   <tr>
@@ -20,7 +22,8 @@
   </tr>
   <tr>
     <td>美国</td>
-    <td>sujuanmeng@ezsvs.com</td>
+    <td>yinghuang@ezsvs.com</td>
+    <td>hr-usa@ezsvs.com</td>
   </tr>
   <tr>
     <td>欧洲</td>
@@ -787,4 +790,103 @@ Just a headsup.</div>
 	</div>
 </div>
 </body>
+
+html
+CopyInsert
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Add some basic styling to the table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h2>正式环境</h2>
+  <p>https://ezsvs.com/wp-login.php</p>
+  <a href="https://ezsvs.com/wp-login.php" id="login-link">Click here 点击跳转</a>
+  <h2>测试环境已经删除，不再提供</h2>
+ <button id="login-link">获取默认密码</button>
+  <h2>账户如下</h2>
+  <table>
+    <tr>
+      <th>Region</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>中东非</td>
+      <td>zhaowei@ezsvs.com</td>
+    </tr>
+    <tr>
+      <td>美国</td>
+      <td>yinghuang@ezsvs.com</td>
+      <td>hr-usa@ezsvs.com</td>
+    </tr>
+    <tr>
+      <td>欧洲</td>
+      <td>ningtai@ezsvs.com</td>
+    </tr>
+    <tr>
+      <td>东南亚</td>
+      <td>hr-sg@ezsvs.com</td>
+    </tr>
+    <tr>
+      <td>东亚</td>
+      <td>dengyaru@ezsvs.com</td>
+    </tr>
+    <tr>
+      <td>总部</td>
+      <td>wangfengjiao@ezaigc.com</td>
+    </tr>
+  </table>
+
+  <script>
+    // Define an object to store the region-email-password data
+    const accounts = {
+      "中东非": { email: "zhaowei@ezsvs.com", password: "EZSVS2024!." },
+      "美国": { email: "yinghuang@ezsvs.com", password: "EZSVS2024!." },
+      "欧洲": { email: "ningtai@ezsvs.com", password: "EZSVS2024!." },
+      "东南亚": { email: "hr-sg@ezsvs.com", password: "EZSVS2024!." },
+      "东亚": { email: "dengyaru@ezsvs.com", password: "EZSVS2024!." },
+      "总部": { email: "wangfengjiao@ezaigc.com", password: "EZSVS2024!." }
+    };
+
+    // Add an event listener to the link
+    document.getElementById("login-link").addEventListener("click", function(event) {
+      event.preventDefault(); // prevent the default link behavior
+
+      // Prompt the user to input a password
+      const password = prompt("请输入密码");
+
+      // Check if the password is correct (you can add your own logic here)
+      if (password === "ezsvs") {
+        // Get the region from the table
+        const region = document.querySelector("table tr:nth-child(2) td:first-child").textContent;
+
+        // Get the corresponding email and password from the accounts object
+        const account = accounts[region];
+        const email = account.email;
+        const defaultPassword = account.password;
+
+        // Display an alert with the email and default password
+        alert(`邮箱：${email}\n默认密码：${defaultPassword}`);
+      } else {
+        alert("密码错误");
+      }
+    });
+  </script>
 </html>
